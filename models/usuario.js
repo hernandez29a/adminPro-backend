@@ -17,7 +17,7 @@ const UsuarioSchema = Schema({
     },
     imgUrl: {
         type: String,
-        default: 'https://adminpro-backend-2v.herokuapp.com/api/upload/imagen/no-imagen.jpg'
+        default: 'http://localhost:3000/api/upload/imagen/no-imagen.jpg'
     },
     public_id: {
         type: String,
